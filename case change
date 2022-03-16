@@ -1,0 +1,19 @@
+//case change//
+#include<stdio.h>
+main()
+
+{
+	char b;
+	printf("enter a letter ");
+	scanf("%c",&b);
+	if (b>='a' && b<='z')
+	  {
+	  b-=32;
+	  printf("%c",b);
+      }
+    else
+      {
+      b+=32;
+      printf("%c",b);
+      }
+}
