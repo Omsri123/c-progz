@@ -1,0 +1,12 @@
+//char to ascii//
+#include<stdio.h>
+main()
+
+{
+	char ch;
+	int a;
+	printf("enter character ");
+	ch=getchar();
+	a=ch;
+	printf("ascii number is %d",a);
+}
