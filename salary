@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+
+{
+	int a;
+	float d,h,p,l,f;
+	printf("enter basic,da,hra,pf and lic");
+	scanf("%d%f%f%f%f",&a,&d,&h,&p,&l);
+	f=a+a*d/100+a*h/100-p*a/100-l*a/100;
+	printf("gross salary is %f",f);
+}
