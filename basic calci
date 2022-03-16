@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+
+{
+	float a,b,c,d,f,v,w,x,y,z;
+	printf("Enter temperature in c ");
+	scanf("%f",&a);
+	printf("Enter time in minutes ");
+	scanf("%f",&b);
+	printf("Enter distance in cm ");
+	scanf("%f",&c);
+	printf("Enter area in sq cm ");
+	scanf("%f",&d);
+	printf("Enter volume in cube cm");
+	scanf("%f",&f);
+	v=a*9/5.0+32;
+	w=b/60.0;
+	x=c/100.0;
+	y=d/10000.0;
+	z=f/1000000.0;
+	printf("temperature=%ff\ntime=%fh\ndistance=%fm\narea=%fm^2\nvolume=%fm^3",v,w,x,y,z);
+}
