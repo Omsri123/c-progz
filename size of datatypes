@@ -1,0 +1,12 @@
+//size of datatypes//
+#include<stdio.h>
+main()
+
+{
+    printf("value of int is= %i\n",sizeof(int));
+	printf("value of float is= %i\n",sizeof(float));
+	printf("value of  double is= %i\n",sizeof(double));
+	printf("value of char  is= %i\n",sizeof(char));
+	printf("value of  void is= %i\n",sizeof(void));
+	return 0;
+}
