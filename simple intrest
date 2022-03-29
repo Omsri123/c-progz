@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+
+{
+	//collecting user data//
+	float p,t,r,si;
+	
+	printf("enter principal amount");
+	scanf("%f",&p);
+	printf("enter time period");
+	scanf("%f",&t);
+	printf("enter rate of intrest");
+	scanf("%f",&r);
+	
+	si=(p*t*r)/100;
+	printf("simple intrest is %f\n",si);
+}
