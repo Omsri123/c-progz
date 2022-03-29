@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+
+{
+	int a,b,c,d;
+	float x;
+	printf("enter x1 and x2");
+	scanf("%d %d",&a,&b);
+	printf("enter y1 and y2");
+	scanf("%d %d",&c,&d);
+	x=((b-a)^2+(d-c)^2)^(1/2);
+	printf("length of line is %f",x);
+}
