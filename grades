@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+
+{
+	float a,b,c,d,e,f,avg,p;
+	//get marks//
+	printf("enter 1st subject marks");
+	scanf("%f",&a);
+	printf("enter 2nd subject marks");
+		scanf("%f",&b);
+	printf("enter 3rd subject marks");
+		scanf("%f",&c);
+	printf("enter 4th subject marks");
+		scanf("%f",&d);
+	printf("enter 5th subject marks");
+		scanf("%f",&e);
+	printf("enter 6th subject marks");
+		scanf("%f",&f);
+avg=(a+b+c+d+e+f)/6;
+p=avg/100*100;
+printf("avg is %f and percentage is \n %f",avg,p);
+}
